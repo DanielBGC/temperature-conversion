@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+
+.entrada {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    font-size: 18pt;
+}
+
+#button {
+    width: 120px;
+    height: 30px;
+    font-size: 17pt;
+}
+
+label {
+    display: block;
+    font-size: 15pt;
+}
+
+#res {
+    font-size: 40pt;
+    margin-top: 40px;
+    color: red;
+}
+
