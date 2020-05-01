@@ -1,2 +1,2 @@
-# temperature-conversion
-Conversor de temperatura entre as escolas Celsius, Fahrenheit e Kelvin
+# Temperature Conversion
+## Conversor de temperatura entre as escalas termométricas Celsius, Fahrenheit e Kelvin
