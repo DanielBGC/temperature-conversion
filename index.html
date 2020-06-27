@@ -13,23 +13,31 @@
 <body>
     <h1>CONVERSÃO DE TEMPERATURA</h1>
     
-    <label for="temp">Digite a temperatura</label> 
-    <input type="number" name="cels" id="entrada" class="entrada">
+    <div class="entrada-box">
+        <label for="temp">Digite a temperatura</label> 
+        <input type="number" name="cels" id="entrada" class="entrada" onchange="converter()" onkeyup="converter()">
+    </div>
 
-    <input type="button" value="Converter" id="button" onclick="converter()"> 
+    <h2>Escolha a unidade inicial</h2>
+    <div class="temp-inicial">
+        <label><input type="radio" name="tempInicial" checked>Celsius</label>
+        <label><input type="radio" name="tempInicial" >Fahrenheit</label>
+        <label><input type="radio" name="tempInicial">Kelvin</label>
+    </div>
 
-    <h2>Escolha a unidade inicial:</h2>
-    <label><input type="radio" name="tempInicial" id="cels" checked>Celsius</label>
-    <label><input type="radio" name="tempInicial" id="fahr">Fahrenheit</label>
-    <label><input type="radio" name="tempInicial" id="kelvin">Kelvin</label>
-    
-    <h2>Escolha a unidade final:</h2>
-    <label><input type="radio" name="tempFinal" id="cels">Celsius</label>
-    <label><input type="radio" name="tempFinal" id="fahr" checked>Fahrenheit</label>
-    <label><input type="radio" name="tempFinal" id="kelvin">Kelvin</label>
-           
     <div id="res">
-
+        <div>
+            <h2>Celsius</h2>
+            <p class="cels">0</p>
+        </div>
+        <div>
+            <h2>Fahrenheit</h2>
+            <p class="fahr">0</p>
+        </div>
+        <div>
+            <h2>Kelvin</h2>
+            <p class="kelvin">0</p>
+        </div>
     </div>
 
     <script src="script.js"></script>

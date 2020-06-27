@@ -4,27 +4,74 @@ h1 {
     text-decoration: underline;
 }
 
+.entrada-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.entrada-box label {
+    font-weight: 700;
+    font-size: 16pt;
+}
+
 .entrada {
     display: inline-block;
     width: 200px;
     height: 30px;
     font-size: 18pt;
+    border-radius: 4px;
+    outline: none;
+
+    text-align: center;
+
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
 
-#button {
-    width: 120px;
-    height: 30px;
-    font-size: 17pt;
+.temp-inicial {
+    display: flex;
+    justify-content: center;
+}
+
+.temp-inicial label {
+    margin-left: 20px;
+}
+
+h2 {
+    text-align: center;
 }
 
 label {
     display: block;
-    font-size: 15pt;
+    font-size: 14pt;
 }
 
 #res {
-    font-size: 40pt;
-    margin-top: 40px;
-    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
+#res div {
+    border: 1px solid black;
+    width: 200px;
+
+    margin-top: 50px;
+}
+
+#res h2 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#res p {
+    text-align: center;
+    font-size: 20pt;
+}
+
+div.selected {
+    color: blue;
+}
+
 
