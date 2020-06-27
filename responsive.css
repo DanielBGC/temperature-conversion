@@ -1,0 +1,14 @@
+@media(min-width: 300px) and (max-width: 650px) {
+    #res {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #res div {
+        border: 1px solid black;
+        width: 200px;
+
+        margin-top: 20px;
+    }
+}
